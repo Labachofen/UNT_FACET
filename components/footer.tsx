@@ -64,7 +64,7 @@ export function Footer() {
               <h3 className="text-lg font-semibold text-white">{section.title}</h3>
               {"links" in section ? (
                 <ul className="space-y-2">
-                  {section.links.map((link) => (
+                  {section.links?.map((link) => (
                     <li key={link.text}>
                       <a href={link.href} className="text-sm hover:text-orange-400 transition-colors">
                         {link.text}
