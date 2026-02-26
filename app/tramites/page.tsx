@@ -20,7 +20,7 @@ const item = {
   show: { opacity: 1, y: 0 },
 }
 
-function ErrorFallback({ error }) {
+function ErrorFallback({ error }: { error: Error }) {
   return (
     <div role="alert">
       <p>Something went wrong:</p>
