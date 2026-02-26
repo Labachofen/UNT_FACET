@@ -56,7 +56,7 @@ export function Hero() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src={`${basePath}/images/image-20-281-29.png`}
+                  src={`${basePath}https://raw.githubusercontent.com/Labachofen/UNT_FACET/refs/heads/main/public/images/image-20-281-29.png`}
                   alt="Calendario Académico 2026"
                   width={800}
                   height={600}
