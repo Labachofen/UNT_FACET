@@ -17,6 +17,15 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  redirects: async () => {
+    return [
+      {
+        source: "/",
+        destination: "/UNT_FACET/",
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default nextConfig
